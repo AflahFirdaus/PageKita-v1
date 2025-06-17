@@ -15,7 +15,7 @@ import PortfolioPage from './pages/PortfolioPage';
 function App() {
   return (
     <Router>
-      <div className="min-h-screen bg-white">
+      <div className="min-h-screen bg-white w-full min-w-0">
         <Navbar />
         <Routes>
           <Route path="/portfolio" element={<PortfolioPage />} />

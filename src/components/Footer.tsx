@@ -3,9 +3,9 @@ import { motion } from "framer-motion";
 import { FaInstagram, FaWhatsapp, FaTiktok, FaLinkedin, FaFacebook } from "react-icons/fa";
 
 const socialLinks = [
-  { name: "Instagram", icon: <FaInstagram />, url: "https://www.instagram.com/invites/contact/?utm_source=ig_contact_invite&utm_medium=copy_link&utm_content=x3fwk6s" },
+  { name: "Instagram", icon: <FaInstagram />, url: "https://www.instagram.com/pagekita.id/?utm_source=ig_web_button_share_sheet" },
   { name: "WhatsApp", icon: <FaWhatsapp />, url: "https://wa.me/6282248964164" },
-  { name: "Facebook", icon: <FaFacebook />, url: "https://www.facebook.com/" },
+  { name: "Facebook", icon: <FaFacebook />, url: "https://www.facebook.com/share/18vMPHYXPY/" },
 ];
 
 const Footer = () => {
@@ -21,7 +21,7 @@ const Footer = () => {
     social: [
       {
         name: 'Facebook',
-        href: '#',
+        href: 'https://www.facebook.com/share/18vMPHYXPY/',
         icon: (props: any) => (
           <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
             <path
@@ -34,7 +34,7 @@ const Footer = () => {
       },
       {
         name: 'Instagram',
-        href: 'https://www.instagram.com/invites/contact/?utm_source=ig_contact_invite&utm_medium=copy_link&utm_content=x3fwk6s',
+        href: 'https://www.instagram.com/pagekita.id/?utm_source=ig_web_button_share_sheet',
         icon: (props: any) => (
           <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
             <path

@@ -9,14 +9,14 @@ const Navbar: React.FC = () => {
     <nav className="fixed w-full bg-white shadow-md z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16">
-          <div className="flex items-center">
+          <div className="flex items-center min-w-0">
             <a href="#" className="flex-shrink-0 flex items-center">
-              <span className="text-2xl font-bold text-blue-600">PageKita</span>
+              <img src="/LogoSVG.svg" alt="PageKita Logo" className="h-8 w-auto" />
             </a>
           </div>
           
           {/* Desktop menu */}
-          <div className="hidden md:flex items-center space-x-8">
+          <div className="hidden md:flex items-center space-x-8 min-w-0">
             <a href="#services" className="text-gray-700 hover:text-blue-600">Layanan</a>
             <a href="#portfolio" className="text-gray-700 hover:text-blue-600">Portofolio</a>
             <a href="#process" className="text-gray-700 hover:text-blue-600">Proses</a>
@@ -27,7 +27,7 @@ const Navbar: React.FC = () => {
           </div>
 
           {/* Mobile menu button */}
-          <div className="md:hidden flex items-center">
+          <div className="md:hidden flex items-center min-w-0">
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
               className="inline-flex items-center justify-center p-2 rounded-md text-gray-700 hover:text-blue-600 focus:outline-none"

@@ -30,7 +30,7 @@ const Pricing = () => {
               <h4 className="text-2xl font-bold text-gray-700">Start From</h4>
               <div className="mt-4 flex items-baseline justify-center">
                 <span className="text-5xl font-extrabold tracking-tight text-gray-900">
-                  Rp 400K
+                  Rp 450K
                 </span>
                 <span className="ml-2 text-xl font-semibold text-gray-500 line-through">
                   Rp 600K

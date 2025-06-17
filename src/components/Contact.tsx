@@ -109,10 +109,10 @@ const Contact = () => {
           transition={{ duration: 0.8 }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl font-bold text-white mb-4">Get in Touch</h2>
+          <h2 className="text-4xl font-bold text-white mb-4">Hubungi Kami</h2>
           <div className="w-20 h-1 bg-gradient-to-r from-blue-500 to-purple-500 mx-auto"></div>
           <p className="mt-6 text-gray-400 max-w-2xl mx-auto">
-            Have a project in mind? Let's discuss how we can work together to bring your ideas to life.
+          Punya proyek yang ingin diwujudkan? Yuk, diskusikan bersama dan kita bangun ide Anda menjadi kenyataan.
           </p>
         </motion.div>
 

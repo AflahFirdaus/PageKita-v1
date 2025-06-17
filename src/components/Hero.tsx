@@ -12,13 +12,12 @@ const Hero = () => {
     <section className="pt-24 pb-12 md:pt-32 md:pb-20 bg-gradient-to-b from-white to-blue-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
-          <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6">
-            Tingkatkan Bisnis Anda dengan
+          <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6 max-w-4xl mx-auto">
+          Tingkatkan Kehadiran Online Anda dengan
             <span className="text-blue-600"> Landing Page</span> yang Profesional
           </h1>
           <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
-            Kami membantu bisnis Anda tumbuh dengan landing page yang menarik, 
-            responsif, dan mengoptimalkan konversi pelanggan.
+          Kami membantu Anda membangun kehadiran online dengan landing page yang menarik, responsif, dan dirancang untuk mengoptimalkan tujuan Anda.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
@@ -39,20 +38,20 @@ const Hero = () => {
         {/* Stats */}
         <div className="mt-16 grid grid-cols-2 gap-8 md:grid-cols-4">
           <div className="text-center">
-            <div className="text-3xl font-bold text-blue-600">100+</div>
-            <div className="mt-1 text-sm text-gray-600">Proyek Selesai</div>
+            <div className="text-lg font-bold text-blue-600">Landing Page Custom</div>
+            <div className="mt-1 text-sm text-gray-600">Desain sesuai kebutuhan Anda</div>
           </div>
           <div className="text-center">
-            <div className="text-3xl font-bold text-blue-600">95%</div>
-            <div className="mt-1 text-sm text-gray-600">Tingkat Kepuasan</div>
+            <div className="text-lg font-bold text-blue-600">Responsif di Semua Perangkat</div>
+            <div className="mt-1 text-sm text-gray-600">Nyaman di HP, tablet, dan desktop</div>
           </div>
           <div className="text-center">
-            <div className="text-3xl font-bold text-blue-600">50+</div>
-            <div className="mt-1 text-sm text-gray-600">Klien Aktif</div>
+            <div className="text-lg font-bold text-blue-600">Optimasi Konversi</div>
+            <div className="mt-1 text-sm text-gray-600">Desain yang memaksimalkan hasil</div>
           </div>
           <div className="text-center">
-            <div className="text-3xl font-bold text-blue-600">24/7</div>
-            <div className="mt-1 text-sm text-gray-600">Dukungan</div>
+            <div className="text-lg font-bold text-blue-600">Dukungan Ramah & Cepat</div>
+            <div className="mt-1 text-sm text-gray-600">Siap membantu Anda kapan saja</div>
           </div>
         </div>
       </div>

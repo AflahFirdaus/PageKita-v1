@@ -30,11 +30,11 @@ const Services = () => {
       ),
     },
     {
-      title: "Landing Page Startup",
-      description: "Landing page modern untuk startup dan inovasi digital Anda.",
+      title: "Landing Page Personal Branding",
+      description: "Landing page modern untuk membangun citra diri dan memperkuat kehadiran online Anda.",
       icon: (
         <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5.121 17.804A9 9 0 0112 15a9 9 0 016.879 2.804M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
         </svg>
       ),
     },
